@@ -42,5 +42,5 @@ The development pipeline consists of the following steps:
 
 ## References
 1. H. Xiao, “Weather phenomenon database (WEAPD),” 2021. [Online]. Available: [https://doi.org/10.7910/DVN/M8JQCR](https://doi.org/10.7910/DVN/M8JQCR)
-2. H. Xiao, F. Zhang, Z. Shen, K. Wu, and J. Zhang, “Classification of weather phenomenon from images by using deep convolutional neural network,” Earth and Space Science, vol. 8, 05 2021.
-3. D. Chattoraj, A. Chatterjee, S. Ghosh, A. Ghosh, and E. Ientilucci, “Enhanced multi-class weather image classification using data augmentation and dynamic learning on pre-trained deep neural net,” 08 2024, pp. 459–464.
+2. H. Xiao, F. Zhang, Z. Shen, K. Wu, and J. Zhang, “Classification of weather phenomenon from images by using deep convolutional neural network,” Earth and Space Science, vol. 8, 05 2021. [Online]. Available: (https://doi.org/10.1029/2020EA001604)
+3. D. Chattoraj, A. Chatterjee, S. Ghosh, A. Ghosh, and E. Ientilucci, “Enhanced multi-class weather image classification using data augmentation and dynamic learning on pre-trained deep neural net,” 08 2024, pp. 459–464. [Online]. Available: (https://ieeexplore.ieee.org/document/10704109)
