@@ -1,5 +1,5 @@
 # Image Classification of Weather Phenomena
-# Assignment 1 - Initiate
+
 
 ## How To Run the Weather Phenomena Demo
 1. Prerequisites
@@ -19,6 +19,8 @@
    python WeatherPhenomenaDemo.py 
 
 4. When the application requestes it, provide the path to the image you want to get predictions for.
+
+# Assignment 1 - Initiate
 
 ## For detailed information about the experiment, please refer to the Jupyter Notebook.
 
@@ -73,19 +75,13 @@ The development pipeline consists of the following steps:
 ## Changes in the project 
 The task remains the same, however the chosen architecture **VGG16** was cahnged as it is relatively old and better models have been developed with better reported accuracy. In particular the new architecture chosen for the project is **EfficientNetB0** this choice was driven by the high accuracy with fewer parameters and computational cost compared to other models.
 
-## Working Pipeline 
-1. Re-Implement Baseline model following the EfficientNetB0 architecture, decide metric and scores for a successful outcome. Implement unit tests. Run on the current WEAPD dataset as it is.
-2. Gather more data and do further research into the topic for improvements.
-3. Data Augmentation, Data preprocessing improve the model and fine tune hyper-parameters. Implement unit tests.
-4. Final Evaluation of the model on the test data. Go back to point 3 if the desired outcome has not been achieved.
-
 ## Evaluation Metric
 For evaluating the model, the accuracy performance of the model will be observed. The best accuracy reported for **EfficientNetB0** is 77.1%, while the best accuracy reported by the two research papers using the WEAPD dataset achieve a 92% accuracy outcome. Therefore, a successful outcome of this project would report an accuracy between 85%-95% on the test split of the data. 
 For each epoch the performance for accuracy and loss will be observed for train and validation set.
 
 ## Work Summary
 The **EfficientNetB0** was chosen for it's reduced number of parameters compared to other image classification models. 
-The model built showed a total of 3.5M trainable parameters, comapred to the actual reported 5.3M parameters.
+The model built showed a total of 3.5M trainable parameters, compared to the actual reported 5.3M parameters.
 Two new calsses were introduced 'Tornado' and 'Aurora' and samples were downloaded from Bing using the 'bing_image_downloader' library.
 Data Augmentation techniques, flipping , adjusting contrast or brightness of a small percentage of the data in the train-set. 
 Oversampling was employed to overcome class imbalance. Finally, the total samples used for training increased from a total of 6862 to a total of 4899 to a total of 15387.
