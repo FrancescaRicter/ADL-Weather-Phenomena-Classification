@@ -1,7 +1,6 @@
 # Image Classification of Weather Phenomena
 
-
-## How To Run the Weather Phenomena Demo
+## How To Run the Weather Phenomena Demo Web Application
 1. Prerequisites
     Ensure you have the following installed:
     - Python (>=3.7)
@@ -9,16 +8,14 @@
     - NumPy
     - scikit-learn
 
-2. Required Files
-    Ensure you have the following files in your working directory:
-    - dataset.zip : Contains a sample of the data images from the final 13 different classes
-    - classes.npy : Encoding of the class labels
-    - WeatherPhenomena/trial_2/checkpoint.weights.h5 : Pre-trained model weights.
+2. Required Streamlit library
+    Ensure you have the following library installed on your system:
+    *pip install streamlit*
 
-3. Run the following command in terminal:
-   python WeatherPhenomenaDemo.py 
+3. Run the following command in terminal :
+   streamlit run WeatherPhenomena-Demo.py 
 
-4. When the application requestes it, provide the path to the image you want to get predictions for.
+4. Upload your image file and proceed with inference
 
 # Assignment 1 - Initiate
 
@@ -104,4 +101,4 @@ During test-validation split an error was performed when setting the size for sp
 - **Data Preprocessing, Model Development, and Training:** 17.45 hours
 - **Model Improvements and Fine-Tuning:** 16.10 hours
 - **Final Evaluation:** 0.30 hours
-- **Report/READ ME and Results Presentation:** 3.30 hours 
+- **Report/READ ME and Results Presentation:** 5.30 hours 
