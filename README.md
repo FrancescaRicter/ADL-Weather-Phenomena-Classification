@@ -8,14 +8,13 @@
     - NumPy
     - scikit-learn
 
-2. Required Streamlit library
-    Ensure you have the following library installed on your system:
+2. Required Streamlit library, to install run the following command:
     *pip install streamlit*
 
-3. Run the following command in terminal :
+3. Run the following command in terminal to access the WebApp :
    streamlit run WeatherPhenomena-Demo.py 
 
-4. Upload your image file and proceed with inference
+4. Upload your image file and perform inference
 
 # Assignment 1 - Initiate
 
@@ -94,11 +93,14 @@ The model was trained for a total of 32 epochs. The accuracy performances report
 Based on these results, we can confirm that the success criteria has been met.
 
 ## Observations
-During test-validation split an error was performed when setting the size for split percentage to 0.15 (15%), leading to the following split for the original WEAPD dataset : 68% train, 12% validation and 20% test. This error should be fixed to have more equally balanced number of validation and test data samples.
+During the test-validation split, an error occurred when setting the split percentage to 15% (0.15). This resulted in the following distribution for the original WEAPD dataset: 68% for training, 12% for validation, and 20% for testing. This error caused an imbalance in the number of validation and test samples and could potentially explain the slightly lower performance on the validation data. In future work the split should be adjusted to ensure a more balanced distribution between validation and test data.
 
 ## Work Breakdown
 - **Dataset Retrieval and Scientific Paper Research:** 3 hours
 - **Data Preprocessing, Model Development, and Training:** 17.45 hours
 - **Model Improvements and Fine-Tuning:** 16.10 hours
 - **Final Evaluation:** 0.30 hours
-- **Report/READ ME and Results Presentation:** 5.30 hours 
+- **Report/READ ME and Results Presentation:** 6.30 hours 
+
+# Assignment 3 - Deliver
+For this part of the project refer to the *Assignment3_Deliver.pdf* file.
